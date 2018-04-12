@@ -1,9 +1,10 @@
 //index.js
 //获取应用实例
 var app = getApp()
+
 Page({
   data: {
-    motto: 'Sms Money',
+    motto: '首页',
     userInfo: {}
   },
   //事件处理函数

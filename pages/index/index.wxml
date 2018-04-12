@@ -4,6 +4,7 @@
   </view>
   <view  bindtap="bindViewTap" class="userinfo">
     <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">首页\n</text>
     <text class="userinfo-nickname">this is {{userInfo.nickName}}</text>
   </view>
 </view>

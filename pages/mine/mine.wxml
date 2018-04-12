@@ -1,0 +1,8 @@
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1524155859&di=c636329d88fa044f60df0d952ca0dedf&imgtype=jpg&er=1&src=http%3A%2F%2Fimgsrc.baidu.com%2Fforum%2Fw%253D580%2Fsign%3Dd80efd561ad5ad6eaaf964e2b1ca39a3%2F0a55b319ebc4b74549bc7184cefc1e178a821573.jpg" background-size="cover"></image>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
