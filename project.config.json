@@ -11,19 +11,15 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.9.98",
+	"libVersion": "2.2.0",
 	"appid": "touristappid",
-	"projectname": "eof_xiaochengxu",
+	"projectname": "eof_xiaochengxu_test",
 	"condition": {
 		"search": {
 			"current": -1,
 			"list": []
 		},
 		"conversation": {
-			"current": -1,
-			"list": []
-		},
-		"plugin": {
 			"current": -1,
 			"list": []
 		},

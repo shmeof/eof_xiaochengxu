@@ -1,17 +1,34 @@
-//index.js
+//logs.js
 //获取应用实例
 var app = getApp()
-Page({
+
+// for Mobx
+var observer = require('../../libs/observer').observer;
+Page(observer({
+  props: {
+    testStore: require('../../stores/testStore').default,
+  },
+
   data: {
     motto: '消息',
     userInfo: {}
   },
-  //事件处理函数
-  bindViewTap: function() {
+
+  // 事件处理函数
+  handleViewTap: function() {
     wx.navigateTo({
       url: '../logs/logs'
     })
   },
+
+  handleAdd: function() {
+    this.props.testStore.addTodo("item_add")
+  },
+
+  handleDel: function () {
+    this.props.testStore.removeTodo()
+  },
+
   onLoad: function () {
     console.log('onLoad')
     var that = this
@@ -50,4 +67,4 @@ Page({
   onTabItemTap: function () {
     console.log('onTabItemTap')
   }
-})
+}))

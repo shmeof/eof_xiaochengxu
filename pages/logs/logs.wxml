@@ -1,8 +1,16 @@
 <view class="container">
-  <view  bindtap="bindViewTap" class="userinfo">
+  <view class="userinfo" bindtap="handleViewTap" >
     <image class="userinfo-avatar" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523538764824&di=9a711b2e9aa11414d3ae386f8ba09f86&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F15%2F34%2F66%2F20H58PICWcI_1024.jpg" background-size="cover"></image>
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+
+  <view class="testmobx">
+    <text class="test-mobx">{{props.testStore.todos.length}}</text>
+  </view>
+
+  <button class="weui-btn" type="primary" bindtap="handleAdd">增加</button>
+
+  <button class="weui-btn" type="primary" plain="true" bindtap="handleDel">减少</button>
 </view>
