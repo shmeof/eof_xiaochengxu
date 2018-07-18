@@ -13,7 +13,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.2.0",
 	"appid": "touristappid",
-	"projectname": "eof_xiaochengxu_test",
+	"projectname": "eof_xiaochengxu",
 	"condition": {
 		"search": {
 			"current": -1,
